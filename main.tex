@@ -1,13 +1,15 @@
 %\documentclass[12pt]{article}
 \documentclass[BCOR=12mm,DIV11,titlepage,a4paper,oneside]{scrbook}
 \usepackage{scrhack}
-\usepackage[ngerman]{babel}
+\usepackage[ngerman, english]{babel}
 \usepackage[utf8x]{inputenc}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage{subcaption}
+\usepackage{fnpos}
+
 
 %fancyheadings funktioniert nicht mehr mit der KOMA Script Klasse scrbook
 
@@ -17,7 +19,7 @@
 
 % Mittels [H] können Bilder genau an einer Stelle positioniert werden
 \usepackage{float}
-\usepackage{hyperref}
+\usepackage[linkbordercolor={0 0 0}]{hyperref}
 % bewirkt das HyperLinks in der PDF nicht umrandet oder farbig sind
 \hypersetup{colorlinks=false}
 
@@ -45,9 +47,17 @@
 \newpage
 \input{./chapter/kapitel2}
 \newpage
+\input{./chapter/kapitel3}
+\newpage
+\input{./chapter/kapitel4}
+\newpage
+\input{./chapter/kapitel5}
+\newpage
+\input{./chapter/kapitel6}
+\newpage
+\input{./chapter/kapitel7}
+\newpage
 \input{./chapter/fazit}
-
-
 \newpage
 \include{./chapter/verzeichnisse}
 \include{./chapter/eid}
